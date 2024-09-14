@@ -1,6 +1,4 @@
-package se.lexicon;
-
-import java.time.LocalDate;
+package se.lexicon.Model;
 
 public class TodoItemTask {
 

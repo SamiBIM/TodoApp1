@@ -3,12 +3,11 @@ package org.example;
 
 import java.time.LocalDate;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import se.lexicon.Person;
-import se.lexicon.TodoItem;
-import se.lexicon.TodoItemTask;
+import se.lexicon.Model.Person;
+import se.lexicon.Model.TodoItem;
+import se.lexicon.Model.TodoItemTask;
 
 /**
  * Unit test for simple App.

@@ -1,11 +1,11 @@
-package se.lexicon;
+package se.lexicon.Model;
 
 public class Person {
 
     private int id;
     private String firstName;
     private String lastName;
-    private String email;
+//    private String email;
 
     public Person() {
     }
@@ -32,14 +32,14 @@ public class Person {
         return this.lastName;
     }
 
-    public void setEmail(String email) {
-        validateThis(email, "Email");
-        this.email = email;
-    }
+//    public void setEmail(String email) {
+//        validateThis(email, "Email");
+//        this.email = email;
+//    }
 
-    public String getEmail() {
-        return this.email;
-    }
+//    public String getEmail() {
+//        return this.email;
+//    }
 
     private void validateThis(String inputString, String variableName) {
         if (inputString == null) {
@@ -47,8 +47,12 @@ public class Person {
         }
     }
 
+//    public String getSummary() {
+//        return "{ id : " + id + " , name : " + firstName + " " + lastName + " , email : " + email + " }";
+//    }
+
     public String getSummary() {
-        return "{ id : " + id + " , name : " + firstName + " " + lastName + " , email : " + email + " }";
+        return "{ id : " + id + " , name : " + firstName + " " + lastName + " }";
     }
 
 }
